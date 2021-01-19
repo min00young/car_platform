@@ -1,0 +1,24 @@
+flask_session/
+uploads/
+*.pyc
+*.db
+*.log
+*.swp
+contractPdf/*.pdf
+contractPdf/*.png
+contractPdf/*.jpg
+contractPdf/*.jpeg
+.vscode/
+.pytest_cash/
+.mypy_cache/
+logs/*
+!logs/__init__.py
+
+# Pycharm
+.idea/
+
+# macOS
+.DS_Store
+
+## 설정파일
+config.py
